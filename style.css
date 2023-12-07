@@ -2,6 +2,10 @@ h1 {
     color: midnightblue;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
@@ -32,12 +36,13 @@ body {
 }
 
 #detalles {
-    background:blueviolet;
+    background:rgb(58, 4, 87);
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
     float: left;
-    color:black;
+    color:aliceblue;
+    text-shadow: 3px 0 10px black;
 }
 
 .contenido {
